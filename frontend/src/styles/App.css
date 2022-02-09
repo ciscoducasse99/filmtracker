@@ -1,4 +1,117 @@
+/* @import "bootstrap-icons"; */
+
+/* Loading */
+.react-logo {
+  animation: react-logo infinite 1s linear;
+  height: 7vmin;
+  pointer-events: none;
+}
+
+@keyframes react-logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .tmdb-logo {
-  height: 60px;
-  width: 100px;
+  width: 275px;
+  margin: 20px 0;
+}
+
+.login-card {
+  margin-top: 100px;
+}
+
+.gradient-text {
+  background-color: blue;
+  background-image: linear-gradient(45deg, #83cba7, #3fb5df);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.search-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5000;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.search-icon {
+  padding: 14px;
+  background-color: white;
+  color: grey;
+  min-width: 50px;
+  text-align: center;
+  border: none;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  outline: none;
+  border: none;
+}
+
+.input-field:focus {
+  color: darkcyan;
+}
+
+.icons a i {
+  color: rgb(176, 182, 192);
+}
+.icons a span {
+  display: block;
+  color: rgb(170, 178, 194);
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.icons-md a i {
+  color: darkcyan;
+}
+
+.back-icon {
+  color: rgb(2, 201, 201);
+  float: left;
+  padding: 5px;
+}
+.back-icon:hover {
+  color: darkcyan;
+  float: left;
+  cursor: pointer;
+}
+
+.bottom-sheet-button {
+  font-weight: bold;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+footer nav {
+  padding-bottom: calc(0.1rem + env(safe-area-inset-bottom));
 }

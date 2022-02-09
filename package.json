@@ -5,23 +5,33 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
   "author": "Cisco Ducasse",
   "license": "MIT",
   "devDependencies": {
+    "concurrently": "^5.3.0",
     "cross-env": "^7.0.2",
     "nodemon": "^2.0.6"
   },
   "dependencies": {
     "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
     "connect-mongo": "^3.2.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.8",
     "mongoose": "^5.10.17",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0"
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "react-spring-bottom-sheet": "^3.1.4",
+    "react-swipeable-bottom-sheet": "^1.1.2"
   }
 }

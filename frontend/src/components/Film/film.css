@@ -1,0 +1,119 @@
+/* NAVSCROLLER */
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-scroller-link {
+  color: #1b1d1f;
+  padding: 5px 10px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 20px;
+}
+.nav-scroller .nav-scroller-link:hover {
+  color: #212529;
+  font-size: 1rem;
+  background-color: rgba(13, 202, 233, 0.6);
+  font-weight: bold;
+}
+
+.extra-scroller {
+  position: relative;
+  z-index: 2;
+  overflow-y: visible;
+  margin-bottom: 50px;
+  margin-left: 24px;
+}
+
+.extra-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.extra-scroller .nav::-webkit-scrollbar {
+  height: 6px;
+}
+
+.extra-scroller .nav::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.extra-scroller .nav::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px darkcyan;
+  -webkit-box-shadow: inset 20px 20px 20px darkcyan;
+}
+
+.film-header {
+  height: 560px;
+  border-radius: 20px;
+  margin: 25px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.film-header .film-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.film-header-image {
+  border-radius: 14px;
+  height: 450px;
+  width: 300px;
+}
+
+.film-header-info {
+  position: relative;
+  top: -180px;
+}
+
+@media only screen and (max-width: 740px) {
+  .film-header-info {
+    top: -80px;
+  }
+  .film-header {
+    height: 320px;
+  }
+
+  .film-header-image {
+    height: 370px;
+    width: 255px;
+  }
+}
