@@ -11,7 +11,7 @@ const axios = require("axios");
 dotenv.config({ path: "./backend/config/config.env" });
 const connectDb = require("./backend/config/db");
 const { watch } = require("fs");
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
