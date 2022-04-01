@@ -5,10 +5,6 @@ const Browse = (props) => {
   const [filmType, setFilmType] = useState("");
   const [films, setFilms] = useState([]);
 
-  useEffect(() => {
-    const { section, filmType } = props.match.params;
-  }, []);
-
   return <div>Browse</div>;
 };
 
