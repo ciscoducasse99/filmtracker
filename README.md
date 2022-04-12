@@ -19,10 +19,10 @@ Since writing this, the current phase of development has been strictly focused o
 
 #### Images
 
-![Filmtracker-1](frontend/src/images/m-filmtracker1.jpg)
-![Filmtracker-2](frontend/src/images/m-filmtracker2.jpg)
-![Filmtracker-3](frontend/src/images/m-filmtracker3.jpg)
-![Filmtracker-4](frontend/src/images/m-filmtracker4.jpg)
+<img src="frontend/src/images/m-filmtracker1.jpg" alt="filmtracker-img" width="220px" height="450px"/>
+<img src="frontend/src/images/m-filmtracker2.jpg" alt="filmtracker-img" width="220px" height="450px"/>
+<img src="frontend/src/images/m-filmtracker3.jpg" alt="filmtracker-img" width="220px" height="450px"/>
+<img src="frontend/src/images/m-filmtracker4.jpg" alt="filmtracker-img" width="220px" height="450px"/>
 
 #### Todos
 
