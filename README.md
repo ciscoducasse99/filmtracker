@@ -2,6 +2,8 @@
 
 ![Filmtracker](frontend/public/logo192.png)
 
+[Link to visit app here.](https://filmtrackerjs.herokuapp.com)
+
 ## Tech Stack
 
 - React
@@ -14,6 +16,13 @@ This app was made as an upgraded version of the typical CRUD movie app a lot of 
 I'm using Express as the backend server. I'm using [TMDB API](https://api.themoviedb.org) to serve me current movies and shows, as well as trending films, popular films, etc. I'm using MongoDB to keep track of user data, as well as connections and recommendations between users. React is my frontend go-to, and styling with Bootstrap has became the norm.
 
 Since writing this, the current phase of development has been strictly focused on styling the frontend. The frontend is currently making all calls to the TMDB API to serve data, but will soon be switched to backend. The next phase will consist of running all the correct api calls between frontend & backend, as well as implementing an auth system so new users can sign up as well as sign in.
+
+#### Images
+
+![Filmtracker-1](frontend/src/images/m-filmtracker1.jpg)
+![Filmtracker-2](frontend/src/images/m-filmtracker2.jpg)
+![Filmtracker-3](frontend/src/images/m-filmtracker3.jpg)
+![Filmtracker-4](frontend/src/images/m-filmtracker4.jpg)
 
 #### Todos
 
