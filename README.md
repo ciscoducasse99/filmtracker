@@ -19,10 +19,10 @@ Since writing this, the current phase of development has been strictly focused o
 
 #### Images
 
-<img src="frontend/src/images/m-filmtracker1.jpg" alt="filmtracker-img" width="220px" height="450px"/>
-<img src="frontend/src/images/m-filmtracker2.jpg" alt="filmtracker-img" width="220px" height="450px"/>
-<img src="frontend/src/images/m-filmtracker3.jpg" alt="filmtracker-img" width="220px" height="450px"/>
-<img src="frontend/src/images/m-filmtracker4.jpg" alt="filmtracker-img" width="220px" height="450px"/>
+<img src="frontend/src/images/m-filmtracker1.jpg" alt="filmtracker-img" width="300px" height="500px" style="margin-bottom:20px; border-radius:10px;"/>
+<img src="frontend/src/images/m-filmtracker2.jpg" alt="filmtracker-img" width="300px" height="500px" style="margin-bottom:20px; border-radius:10px;"/>
+<img src="frontend/src/images/m-filmtracker3.jpg" alt="filmtracker-img" width="300px" height="500px" style="margin-bottom:20px; border-radius:10px;"/>
+<img src="frontend/src/images/m-filmtracker4.jpg" alt="filmtracker-img" width="300px" height="500px" style="margin-bottom:20px; border-radius:10px;"/>
 
 #### Todos
 
