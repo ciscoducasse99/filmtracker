@@ -1,6 +1,6 @@
 # Filmtracker - Cisco Ducasse
 
-![Filmtracker](frontend/public/logo512.png)
+![Filmtracker](frontend/public/logo192.png)
 
 ## Tech Stack
 
